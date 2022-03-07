@@ -1,19 +1,19 @@
 {
-    "name": "static-heroku-nodejs",
+    "name": "mini-course",
     "version": "0.0.0",
-    "description": "static-heroku-nodejs",
+    "description": "mini-course",
     "main": "app.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "app.js"
     },
     "repository": {
       "type": "git",
-      "url": "git://github.com/Yankovsky/static-heroku-nodejs.git"
+      "url": "https://github.com/YaBuyanishe/mini-course.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/Yankovsky/static-heroku-nodejs/issues"
+      "url": "https://github.com/YaBuyanishe/mini-course/issues"
     },
-    "homepage": "https://github.com/Yankovsky/static-heroku-nodejs"
+    "homepage": "https://github.com/YaBuyanishe/mini-course"
   }
