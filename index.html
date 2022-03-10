@@ -2,10 +2,47 @@
 <html>
 <head>
     <title>Static website: home</title>
-    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Social Learning Demo</title>
 </head>
 <body>
-<h1>Hello world!</h1>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__content">
 
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main__container">
+                <div class="main__content items">
+                    <div class="post">
+                        <form class="post__new">
+                            <div class="post__new-input">
+                                <textarea type="textarea" name ="post" placeholder="Stop the count!" maxlength="150" rows="2" required>
+                                </textarea>
+                            </div>
+                            <div class="post__settings">
+                                <div class="post__new-square"></div>
+                                <div class="post__new-length">125</div>
+                                <button class="post__new-send btn">Отправить</button>
+                            </div>
+                        </form>
+                        <div class="post_old"></div>
+                    </div>
+                    <div class="left__side"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__content"></div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
