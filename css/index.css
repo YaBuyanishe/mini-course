@@ -100,9 +100,6 @@ main {
     line-height: calc(24 / 24 * 100%);
     color: #1D1E22;
 }
-.post__new-input textarea:focus {
-    border-color: #0057FF;
-}
 .post__settings {
     display: flex;
 }
